@@ -26,8 +26,8 @@ a {
   height: 33px;
 }
 
-.full-logo {
-}
+/* .full-logo {
+} */
 .nav-links {
   display: flex;
   gap: 20px;
@@ -80,4 +80,96 @@ a {
   padding-bottom: 30px;
   color: #747474;
   font-size: 16px;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 0 25px;
+  width: 100%;
+  align-items: center;
+}
+
+.card-section img {
+  width: 25px;
+  height: auto;
+}
+
+.card-section p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+
+#card-one-paragraph,
+#card-two-paragraph,
+#card-three-paragraph {
+  color: #fff;
+  font: 400;
+  font-size: 30px;
+}
+
+.card-one {
+  background-color: #00ccb1;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em 0;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+
+.card-two {
+  background-color: #3d83df;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em 0;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+
+.card-three {
+  background-color: #1b2734;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em 0;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+
+.card-one select {
+  background-color: #00ccb1;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.card-two select {
+  background-color: #3d83df;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.card-three select {
+  background-color: #1b2734;
+  text-decoration: underline;
+  text-emphasis: none;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+select {
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
