@@ -4,6 +4,7 @@
   box-sizing: border-box;
   color: #333;
   background-color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -63,6 +64,20 @@ a {
 .hero-section #hero-paragraph-tag {
   color: #00b39b;
   font-size: 30px;
+  letter-spacing: -0.3px;
   font-weight: 400;
   font-family: "Segoe UI", Tahoma, Verdana, sans-serif, Arial, sans-serif;
+}
+
+.hero-paragraps {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 280px;
+  padding-right: 280px;
+  padding-bottom: 30px;
+  color: #747474;
+  font-size: 16px;
 }
