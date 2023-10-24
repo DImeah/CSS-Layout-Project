@@ -1,0 +1,68 @@
+.container {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #333;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+
+  background-color: transparent;
+}
+
+#header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+}
+
+#header img {
+  width: 268px;
+  height: 33px;
+}
+
+.full-logo {
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#about {
+  color: #00b39b;
+}
+
+#career,
+#department {
+  color: #ababab;
+  background-color: transparent;
+}
+
+#career:hover {
+  color: #00b39b;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+#small-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.hero-section #hero-paragraph-tag {
+  color: #00b39b;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif, Arial, sans-serif;
+}
