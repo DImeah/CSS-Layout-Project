@@ -229,7 +229,11 @@ select {
 }
 
 .info-section-starting {
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
   padding-top: 60px;
+  border: none;
 }
 
 .info-section-starting h2 {
@@ -261,7 +265,23 @@ select {
   background-color: #fff;
   text-align: center;
   width: 220px;
+  height: 200px;
   margin-bottom: 20px;
+}
+
+#first-column-one img {
+  align-items: center;
+  padding-top: 40px;
+}
+
+.first-column h3 {
+  font-size: 15px;
+  color: #00b39b;
+}
+
+.first-column p {
+  font-size: 10px;
+  padding: 10px;
 }
 
 #first-column-two {
@@ -272,6 +292,17 @@ select {
   background-color: #fff;
   text-align: center;
   width: 220px;
+  height: 200px;
+}
+
+.second-column h3 {
+  font-size: 15px;
+  color: #00b39b;
+}
+
+.second-column p {
+  font-size: 10px;
+  padding: 10px;
 }
 
 #second-column-one {
@@ -282,6 +313,7 @@ select {
   background-color: #fff;
   text-align: center;
   width: 220px;
+  height: 200px;
   margin-bottom: 20px;
 }
 
@@ -293,7 +325,7 @@ select {
   background-color: #fff;
   text-align: center;
   width: 220px;
-  height: 300px;
+  height: 200px;
 }
 
 .testament-section {
@@ -318,6 +350,24 @@ select {
   font-weight: 400;
   font-family: Roboto, Arial, sans-serif;
   color: #747474;
+}
+
+@media screen and (min-width: 964px) {
+    .picture-card-section {
+    grid-template-columns: auto, auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+    .picture-card-section {
+    grid-template-columns: auto, auto, auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+    .picture-card-section {
+    grid-template-columns: auto, auto, auto;
+  }
 }
 
 .picture-card-section {
